@@ -1,0 +1,65 @@
+[
+  {
+    "question": "Mi látható a képen?",
+    "image": "mc_creeper",
+    "options": ["Creeper", "Zombi", "Csontváz", "Enderman"],
+    "correct": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Melyik mob dobja a csontot?",
+    "image": "mc_skeleton_bone",
+    "options": ["Csontváz", "Pók", "Kísértet", "Slime"],
+    "correct": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Melyik csákánnyal bányászható a gyémánt?",
+    "image": "mc_diamond_pickaxe",
+    "options": ["Fa csákány", "Kőcsákány", "Vas csákány", "Arany csákány"],
+    "correct": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Mi a Minecraft földalatti, lávás dimenziójának neve?",
+    "image": "mc_nether",
+    "options": ["Sniff", "Overworld", "Nether", "End"],
+    "correct": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Melyik mob robban fel, ha közel kerül a játékoshoz?",
+    "image": "mc_creeper",
+    "options": ["Creeper", "Pók", "Ghast", "Vindicator"],
+    "correct": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Melyik dimenzióban harcolhatunk az Ender Dragon ellen?",
+    "image": "mc_ender_dragon",
+    "options": ["End", "Nether", "Overworld", "Sniff"],
+    "correct": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Melyik nyersanyagból készül a kenyér?",
+    "image": "mc_bread",
+    "options": ["Búza", "Krumpli", "Répa", "Cukornád"],
+    "correct": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Miből kell építeni a Nether-portál keretét?",
+    "image": "mc_obsidian",
+    "options": ["Obszidián", "Kő", "Vas", "Fa"],
+    "correct": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Melyik mob látható a képen?",
+    "image": "mc_zombie",
+    "options": ["Nyúl", "Ló", "Enderman", "Zombi"],
+    "correct": 3,
+    "difficulty": "easy"
+  }
+]

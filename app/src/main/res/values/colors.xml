@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mc_background">#FF16161A</color>
+    <color name="mc_stone">#FF2B2D31</color>
+    <color name="mc_grass">#FF5DAA3A</color>
+    <color name="mc_dirt">#FF8B5A2B</color>
+    <color name="mc_gold">#FFFFD24A</color>
+    <color name="ic_launcher_background">#FF5DAA3A</color>
+</resources>
