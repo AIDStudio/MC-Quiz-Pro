@@ -5,14 +5,14 @@ import org.json.JSONArray
 
 /** Nehézségi szint. A nagyobb szint a könnyebb kérdéseket is tartalmazza, és rövidebb időt ad. */
 enum class Difficulty(val label: String, val timeLimitSeconds: Int, val description: String) {
-    EASY("KÖNNYŰ", 90, "Csak a könnyű kérdések"),
-    MEDIUM("KÖZEPES", 60, "Könnyű és közepes kérdések"),
-    HARD("NEHÉZ", 45, "Minden kérdés");
+    EASY("KÖNNYŰ", 120, "Csak a könnyű kérdések"),
+    MEDIUM("KÖZEPES", 90, "Könnyű és közepes kérdések"),
+    HARD("NEHÉZ", 60, "Minden kérdés");
 
     companion object {
         /** A kulcs (pl. "HARD") alapján keres; ismeretlen vagy hiányzó érték esetén KÖZEPES. */
         fun fromKey(key: String?): Difficulty =
-            entries.firstOrNull { it.name.equals(key, ignoreCase = true) } ?: MEDIUM
+        entries.firstOrNull { it.name.equals(key, ignoreCase = true) } ?: MEDIUM
     }
 }
 
@@ -32,7 +32,7 @@ data class QuizQuestion(
 
 /** Az adott nehézségi szinthez tartozó kérdések. */
 fun List<QuizQuestion>.forDifficulty(level: Difficulty): List<QuizQuestion> =
-    filter { it.difficulty.ordinal <= level.ordinal }
+filter { it.difficulty.ordinal <= level.ordinal }
 
 /** Véletlen sorrendbe keveri az opciókat, és követi a helyes válasz új indexét. */
 fun QuizQuestion.withShuffledOptions(): QuizQuestion {
